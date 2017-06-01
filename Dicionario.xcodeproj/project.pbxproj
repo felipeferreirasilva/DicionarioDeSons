@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3826318F1EE09C290055322F /* Palavra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826318E1EE09C290055322F /* Palavra.swift */; };
+		382631911EE0A7FA0055322F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382631901EE0A7FA0055322F /* AudioPlayer.swift */; };
+		382631931EE0AA1D0055322F /* Sons in Resources */ = {isa = PBXBuildFile; fileRef = 382631921EE0AA1D0055322F /* Sons */; };
 		383AC80B1ED50A6C00DC57C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AC80A1ED50A6C00DC57C9 /* AppDelegate.swift */; };
-		383AC80D1ED50A6C00DC57C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AC80C1ED50A6C00DC57C9 /* ViewController.swift */; };
+		383AC80D1ED50A6C00DC57C9 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AC80C1ED50A6C00DC57C9 /* Inicio.swift */; };
 		383AC8101ED50A6C00DC57C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383AC80E1ED50A6C00DC57C9 /* Main.storyboard */; };
 		383AC8121ED50A6C00DC57C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383AC8111ED50A6C00DC57C9 /* Assets.xcassets */; };
 		383AC8151ED50A6C00DC57C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383AC8131ED50A6C00DC57C9 /* LaunchScreen.storyboard */; };
+		38D7ED571ED5E25F000D773E /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D7ED561ED5E25F000D773E /* InfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		383AC8071ED50A6C00DC57C9 /* DicionarioDeSons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicionarioDeSons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3826318E1EE09C290055322F /* Palavra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palavra.swift; sourceTree = "<group>"; };
+		382631901EE0A7FA0055322F /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		382631921EE0AA1D0055322F /* Sons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sons; sourceTree = "<group>"; };
+		383AC8071ED50A6C00DC57C9 /* Dicionario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicionario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383AC80A1ED50A6C00DC57C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		383AC80C1ED50A6C00DC57C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		383AC80C1ED50A6C00DC57C9 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
 		383AC80F1ED50A6C00DC57C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		383AC8111ED50A6C00DC57C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383AC8141ED50A6C00DC57C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383AC8161ED50A6C00DC57C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D7ED561ED5E25F000D773E /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382631051EE09AD00055322F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				382631921EE0AA1D0055322F /* Sons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3826318B1EE09B270055322F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383AC80C1ED50A6C00DC57C9 /* Inicio.swift */,
+				38D7ED561ED5E25F000D773E /* InfoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3826318C1EE09B2C0055322F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3826318D1EE09B310055322F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3826318E1EE09C290055322F /* Palavra.swift */,
+				382631901EE0A7FA0055322F /* AudioPlayer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		383AC7FE1ED50A6C00DC57C9 = {
 			isa = PBXGroup;
 			children = (
-				383AC8091ED50A6C00DC57C9 /* DicionarioDeSons */,
+				383AC8091ED50A6C00DC57C9 /* Dicionario */,
 				383AC8081ED50A6C00DC57C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +87,34 @@
 		383AC8081ED50A6C00DC57C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				383AC8071ED50A6C00DC57C9 /* DicionarioDeSons.app */,
+				383AC8071ED50A6C00DC57C9 /* Dicionario.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		383AC8091ED50A6C00DC57C9 /* DicionarioDeSons */ = {
+		383AC8091ED50A6C00DC57C9 /* Dicionario */ = {
 			isa = PBXGroup;
 			children = (
+				382631051EE09AD00055322F /* Resources */,
+				3826318D1EE09B310055322F /* Model */,
+				3826318C1EE09B2C0055322F /* View */,
+				3826318B1EE09B270055322F /* Controller */,
 				383AC80A1ED50A6C00DC57C9 /* AppDelegate.swift */,
-				383AC80C1ED50A6C00DC57C9 /* ViewController.swift */,
 				383AC80E1ED50A6C00DC57C9 /* Main.storyboard */,
 				383AC8111ED50A6C00DC57C9 /* Assets.xcassets */,
 				383AC8131ED50A6C00DC57C9 /* LaunchScreen.storyboard */,
 				383AC8161ED50A6C00DC57C9 /* Info.plist */,
 			);
+			name = Dicionario;
 			path = DicionarioDeSons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		383AC8061ED50A6C00DC57C9 /* DicionarioDeSons */ = {
+		383AC8061ED50A6C00DC57C9 /* Dicionario */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 383AC8191ED50A6C00DC57C9 /* Build configuration list for PBXNativeTarget "DicionarioDeSons" */;
+			buildConfigurationList = 383AC8191ED50A6C00DC57C9 /* Build configuration list for PBXNativeTarget "Dicionario" */;
 			buildPhases = (
 				383AC8031ED50A6C00DC57C9 /* Sources */,
 				383AC8041ED50A6C00DC57C9 /* Frameworks */,
@@ -79,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = DicionarioDeSons;
+			name = Dicionario;
 			productName = DicionarioDeSons;
-			productReference = 383AC8071ED50A6C00DC57C9 /* DicionarioDeSons.app */;
+			productReference = 383AC8071ED50A6C00DC57C9 /* Dicionario.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,11 +141,12 @@
 				TargetAttributes = {
 					383AC8061ED50A6C00DC57C9 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 97ZVCXEP4L;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 383AC8021ED50A6C00DC57C9 /* Build configuration list for PBXProject "DicionarioDeSons" */;
+			buildConfigurationList = 383AC8021ED50A6C00DC57C9 /* Build configuration list for PBXProject "Dicionario" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				383AC8061ED50A6C00DC57C9 /* DicionarioDeSons */,
+				383AC8061ED50A6C00DC57C9 /* Dicionario */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +171,7 @@
 			files = (
 				383AC8151ED50A6C00DC57C9 /* LaunchScreen.storyboard in Resources */,
 				383AC8121ED50A6C00DC57C9 /* Assets.xcassets in Resources */,
+				382631931EE0AA1D0055322F /* Sons in Resources */,
 				383AC8101ED50A6C00DC57C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383AC80D1ED50A6C00DC57C9 /* ViewController.swift in Sources */,
+				383AC80D1ED50A6C00DC57C9 /* Inicio.swift in Sources */,
+				38D7ED571ED5E25F000D773E /* InfoVC.swift in Sources */,
+				382631911EE0A7FA0055322F /* AudioPlayer.swift in Sources */,
 				383AC80B1ED50A6C00DC57C9 /* AppDelegate.swift in Sources */,
+				3826318F1EE09C290055322F /* Palavra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = DicionarioDeSons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.DicionarioDeSons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +324,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = DicionarioDeSons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.DicionarioDeSons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		383AC8021ED50A6C00DC57C9 /* Build configuration list for PBXProject "DicionarioDeSons" */ = {
+		383AC8021ED50A6C00DC57C9 /* Build configuration list for PBXProject "Dicionario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				383AC8171ED50A6C00DC57C9 /* Debug */,
@@ -292,13 +346,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		383AC8191ED50A6C00DC57C9 /* Build configuration list for PBXNativeTarget "DicionarioDeSons" */ = {
+		383AC8191ED50A6C00DC57C9 /* Build configuration list for PBXNativeTarget "Dicionario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				383AC81A1ED50A6C00DC57C9 /* Debug */,
 				383AC81B1ED50A6C00DC57C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
