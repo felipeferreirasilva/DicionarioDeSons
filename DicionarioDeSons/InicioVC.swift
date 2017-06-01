@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Inicio: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class InicioVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     @IBOutlet weak var ptWordLbl: UILabel!
     @IBOutlet weak var enWordLbl: UILabel!
     @IBOutlet weak var playSoundBtn: UIButton!
