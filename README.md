@@ -1,7 +1,7 @@
 # Dicionario De Sons (BETA)
 Português / Inglês
 
-Technologies: SWIFT 3
+Technologies: SWIFT
 
 Author: Felipe Silva
 
