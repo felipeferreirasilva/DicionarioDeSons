@@ -1,4 +1,4 @@
-# Dicionario De Sons (BETA)
+# Dictionary of Sounds (BETA)
 Português / Inglês
 
 Technologies: SWIFT
